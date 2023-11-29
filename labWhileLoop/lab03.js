@@ -1,0 +1,8 @@
+// ให้เขียนโค้ดเพื่อแสดงเลขคู่ตั้งแต่ 1 - 100
+let number = 1;
+while(number < 100){
+    if(number % 2 == 0){
+        console.log(number);
+    }
+    number++;
+}
